@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="app_preferences_name" >
+
+    <PreferenceCategory android:title="@string/pref_data_filtering_title" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_adaptive_filter"
+            android:summary="@string/pref_adaptive_filter_summary"
+            android:title="@string/pref_adaptive_filter_title" />
+            
+        <dk.codeunited.kulturarv.preference.IntEditTextPreference
+        	android:defaultValue="4"
+		    android:key="@string/pref_minimum_value"
+		    android:title="@string/pref_minimum_value_title"
+		    android:summary="@string/pref_minimum_value_summary"
+		    android:numeric="integer"
+		    android:maxLength="1" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_notifications_title" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_show_info_box"
+            android:summary="@string/pref_show_info_box_summary"
+            android:title="@string/pref_show_info_box_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_show_dataset_updates"
+            android:summary="@string/pref_show_dataset_updates_summary"
+            android:title="@string/pref_show_dataset_updates_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_log_title" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_log_to_file"
+            android:summary="@string/pref_log_to_file_summary"
+            android:title="@string/pref_log_to_file_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

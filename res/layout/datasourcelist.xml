@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/datasource_color"
+        android:layout_width="10dp"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="7dp"
+        android:background="#FFFFFFFF"
+        android:gravity="fill_vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="fill_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/list_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_toRightOf="@+id/datasource_color"
+            android:paddingLeft="20dp"
+            android:paddingTop="8dp"
+            android:text="Data Source"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txt_max_objects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/datasource_color"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="40dp"
+            android:text="Max items:"
+            android:textColor="#cccccc"
+            android:textSize="11sp" />
+
+        <CheckBox
+            android:id="@+id/list_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:focusable="false" />
+    </RelativeLayout>
+
+</LinearLayout>
