@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="kulturarv_name">Kulturarv</string>
+    <string name="kulturarv_url">https://www.kulturarv.dk/fbb</string>
+    <string name="flickr_name">Flickr</string>
+    <string name="flickr_url">http://flickr.com</string>
+    <string name="instagram_name">Instagram</string>
+    <string name="instagram_url">http://instagram.com</string>    
+    <string name="wikipedia_name">Wikipedia</string>
+    <string name="wikipedia_url">http://ws.geonames.org/findNearbyWikipediaJSON</string>
+    <string name="twitter_name">Twitter</string>
+    <string name="twitter_url">http://search.twitter.com/search.json</string>
+    <string name="osm_name">OpenStreetMap</string>
+    <string name="osm_url">http://open.mapquestapi.com/xapi/api/0.6/node[railway=station]</string>
+
+</resources>
